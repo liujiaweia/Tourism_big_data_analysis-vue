@@ -36,6 +36,7 @@ export const constantRoutes = [
     component: () => import("@/views/login/index_1"),
     hidden: true
   },
+
   {
     path: "/404",
     component: () => import("@/views/404"),
@@ -74,6 +75,12 @@ export const constantRoutes = [
         name: "Tree",
         component: () => import("@/views/tree/index"),
         meta: { title: "Tree", icon: "tree" }
+      },
+      {
+        path: "recommended",
+        name: "Recommended",
+        component: () => import("@/views/Recommended_sysytem/index"),
+        meta: { title: "recommended", icon: "eye" }
       }
     ]
   },
@@ -85,23 +92,23 @@ export const constantRoutes = [
       {
         path: "index",
         name: "Form",
-        component: () => import("@/views/form/index_2"),
+        component: () => import("@/views/form/index_1"),
         meta: { title: "Form", icon: "form" }
       }
     ]
   },
-  {
-    path: "/test",
-    component: Layout,
-    children: [
-      {
-        path: "index",
-        name: "Test",
-        component: () => import("@/views/test/index"),
-        meta: { title: "Test", icon: "test" }
-      }
-    ]
-  },
+  // {
+  //   path: "/test",
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: "index",
+  //       name: "Test",
+  //       component: () => import("@/views/test/index"),
+  //       meta: { title: "Test", icon: "test" }
+  //     }
+  //   ]
+  // },
 
   {
     path: "/nested",

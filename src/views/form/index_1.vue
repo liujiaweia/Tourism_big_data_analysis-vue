@@ -14,56 +14,7 @@
     <div class="main-top">
       <div
         class="container d-lg-flex justify-content-between align-items-center"
-      >
-        <!-- logo -->
-        <h1 class="logo-style-res float-left">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="images/logo.png"
-              alt=""
-              class="img-fluid logo-img mt-1"
-            />Tourism
-          </a>
-        </h1>
-        <!-- //logo -->
-        <!-- nav -->
-        <div class="nav_w3ls mx-lg-auto">
-          <nav>
-            <label for="drop" class="toggle">Menu</label>
-            <input type="checkbox" id="drop" />
-            <ul class="menu mx-lg-auto">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li>
-                <!-- First Tier Drop Down -->
-                <label for="drop-2" class="toggle toogle-2"
-                  >Pages
-                  <span class="fa fa-angle-down" aria-hidden="true"></span>
-                </label>
-                <a href="#"
-                  >Pages
-                  <span class="fa fa-angle-down" aria-hidden="true"></span
-                ></a>
-                <input type="checkbox" id="drop-2" />
-                <ul>
-                  <li><a href="#chefs" class="drop-text">Our Chef's</a></li>
-                  <li><a href="#blog" class="drop-text">Blog Posts</a></li>
-                  <li><a href="#services" class="drop-text">Services</a></li>
-                  <li><a href="#what" class="drop-text">Achievements</a></li>
-                  <li><a href="#testi" class="drop-text">Reviews</a></li>
-                  <li><a href="#subscribe" class="drop-text">Subscribe</a></li>
-                </ul>
-              </li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!-- //nav -->
-        <!-- dwn -->
-
-        <!-- //dwn -->
-      </div>
+      ></div>
     </div>
     <!-- //navigation -->
     <!-- //header 2 -->

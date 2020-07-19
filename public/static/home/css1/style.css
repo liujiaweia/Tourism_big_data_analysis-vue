@@ -1,0 +1,128 @@
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  text-decoration: none;
+}
+/*--header start here--*/
+.logo {
+  float: left;
+}
+.banner {
+  background: url(../images/bann8.jpg) no-repeat;
+  min-height: 798px;
+  background-size: cover;
+  position: relative;
+}
+.logo h2 {
+  font-size: 2.5em;
+  font-family: "Roboto Slab", serif;
+}
+.logo h2 a {
+  color: #fff;
+}
+.header-main {
+  padding: 1.3em 0em;
+}
+.banner-text {
+  text-align: center;
+  padding-top: 12em;
+}
+.banner-text h1 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 0.5em;
+  font-family: "Roboto Slab", serif;
+}
+.banner-text h5 {
+  font-size: 1.3em;
+  color: #fff;
+}
+.banner-text p {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.8em;
+  width: 64%;
+  margin: 2em auto 0em;
+}
+.bann-strip {
+  background: rgba(0, 0, 0, 0.52);
+  padding: 1em 0em;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.head-social-icns {
+  float: left;
+  width: 55%;
+}
+.head-social-icns ul {
+  padding: 0px;
+  list-style: none;
+  text-align: right;
+}
+.head-social-icns ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.head-search {
+  float: right;
+  width: 45%;
+  text-align: right;
+}
+.search {
+  border: 1px solid #fff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.6em 1em;
+}
+
+.search input[type="text"] {
+  display: inline-block;
+  background: none;
+  border: none;
+  width: 88%;
+  padding-right: 0.9em;
+  outline: none;
+  font-size: 0.95em;
+  color: #fff;
+  font-weight: 400;
+}
+.search input[type="submit"] {
+  background: url(../images/search.png) no-repeat;
+  border: none;
+  outline: none;
+  width: 10%;
+  vertical-align: top;
+}

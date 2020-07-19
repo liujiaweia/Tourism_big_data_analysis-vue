@@ -875,7 +875,7 @@ p.card-text {
 
 /* team */
 .teams {
-  background: url(../images/bg1.jpg) no-repeat center;
+  background: url(../images/ab1.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -970,7 +970,7 @@ ul.social_section_1info a:hover {
 
 /* who we are */
 .who-left-w3pvt {
-  background: url(../images/bg2.jpg) no-repeat top right;
+  background: url(../images/ab1.jpg) no-repeat top right;
   background-size: contain;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -1010,7 +1010,7 @@ h3.title-w3ls-2 {
 }
 
 .who-left-w3pvt-2 {
-  background: url(../images/bg3.jpg) no-repeat bottom left;
+  background: url(../images/ab1.jpg) no-repeat bottom left;
   background-size: contain;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -1248,7 +1248,7 @@ a.btn.button-style-2 {
 
 /* footer */
 footer {
-  background: url(../images/footer.jpg) no-repeat center;
+  background: url(../images/ab1.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
