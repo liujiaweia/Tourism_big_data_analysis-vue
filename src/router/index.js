@@ -52,7 +52,7 @@ export const constantRoutes = [
         path: "dashboard",
         name: "Dashboard",
         component: () => import("@/views/dashboard/index"),
-        meta: { title: "Dashboard", icon: "dashboard" }
+        meta: { title: "地图展示", icon: "dashboard" }
       }
     ]
   },
@@ -62,25 +62,25 @@ export const constantRoutes = [
     component: Layout,
     redirect: "//data-analysis/shandong",
     name: "/Data-analysis",
-    meta: { title: "Data-analysis", icon: "eye" },
+    meta: { title: "数据分析", icon: "eye" },
     children: [
       {
         path: "shandong",
         name: "Shandong",
         component: () => import("@/views/shandong/index_3"),
-        meta: { title: "Shandong", icon: "eye" }
+        meta: { title: "山东板块", icon: "eye" }
       },
       {
         path: "world",
         name: "World",
         component: () => import("@/views/world/index_4"),
-        meta: { title: "World", icon: "eye" }
+        meta: { title: "世界板块", icon: "eye" }
       },
       {
         path: "recommended",
         name: "Recommended",
         component: () => import("@/views/Recommended_sysytem/index"),
-        meta: { title: "recommended", icon: "eye" }
+        meta: { title: "推荐", icon: "eye" }
       }
     ]
   },
@@ -93,7 +93,7 @@ export const constantRoutes = [
         path: "index",
         name: "Views",
         component: () => import("@/views/form/index_1"),
-        meta: { title: "Views", icon: "form" }
+        meta: { title: "视图", icon: "form" }
       }
     ]
   },
