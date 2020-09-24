@@ -74,13 +74,19 @@ export const constantRoutes = [
         path: "world",
         name: "World",
         component: () => import("@/views/world/index_4"),
-        meta: { title: "世界板块", icon: "eye" }
+        meta: { title: "全国板块", icon: "eye" }
       },
       {
         path: "recommended",
         name: "Recommended",
         component: () => import("@/views/Recommended_sysytem/index"),
         meta: { title: "推荐", icon: "eye" }
+      },
+      {
+        path: "emtionanalisy",
+        name: "emtionanalisy",
+        component: () => import("@/views/analise/index"),
+        meta: { title: "评论分析", icon: "eye" }
       }
     ]
   },
